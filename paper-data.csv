@@ -1,4 +1,4 @@
-,MODEL,Region,Scenario,Year,Total_CO2,Total_GHG,TOTAL_CDR,CO2_Emissions,CUM_CO2,cumPopulation,CUM_CDR,GDP_cap,CUM_CDR_fair_share_by_GDP,CUM_CDR_fair_share_by_CUM_POP,CUM_CDR_model_vs_fair_share_by_CUM_POP,CUM_CDR_model_vs_fair_share_by_GDP
+,model,region,scenario,year,total_co2,total_ghg,total_cdr,co2_emissions,cum_co2,cum_population,cum_cdr,gdp_cap,cum_cdr_fair_share_by_gdp,cum_cdr_fair_share_by_cum_pop,cum_cdr_model_vs_fair_share_by_cum_pop,cum_cdr_model_vs_fair_share_by_gdp
 0,IMAGE,CHN,SSP1-19-SPA0-V17,2020,8231.71,10271.13,209.6,10480.73,248309.78,40314.61,209.6,17.53,479.07,15.67,-193.94,269.47
 1,IMAGE,CHN,SSP1-19-SPA0-V17,2030,5564.85,6916.58,649.54,7566.12,338544.05,54371.62,4505.34,32.7,10360.93,1902.85,-2602.48,5855.59
 2,IMAGE,CHN,SSP1-19-SPA0-V17,2040,1181.27,2246.08,1097.12,3343.2,393090.66,68118.6,13238.67,49.73,32220.38,7503.97,-5734.7,18981.71
