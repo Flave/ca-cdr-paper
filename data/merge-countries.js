@@ -9,7 +9,7 @@ const worldTopo = topojsonServer.topology({
 
 const geoJson = {
   type: "FeatureCollection",
-  features: Object.entries(countryGroups).map(([id, ids]) => {
+  features: Object.entries(countryGroups).map(([region, ids]) => {
     const relevantCountries = worldTopo.objects.countries.geometries.filter(
       (country, i) =>
         ids.indexOf(country.properties.ISO_A3) >= 0 ||
@@ -18,7 +18,7 @@ const geoJson = {
 
     return {
       type: "Feature",
-      properties: { id, countries: ids },
+      properties: { region, countries: ids },
       geometry: topojsonClient.merge(worldTopo, relevantCountries),
     };
   }),
