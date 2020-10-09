@@ -138,7 +138,6 @@ module.exports = {
     "UGA",
     "ZMB",
     "ZWE",
-    9,
   ],
   MEA: [
     "ARE",
